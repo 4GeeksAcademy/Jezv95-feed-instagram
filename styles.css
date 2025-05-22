@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(209, 209, 209);
+    margin: 0;
+    
+    
+}
+
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    display:block;
+    width: 100%;
+   height: 50px;
+    font-weight: 800;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+p{
+    margin: 0px;
+}
+
+.container{
+    display: block;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    justify-self: center;
+    margin: 10px;
+    overflow: hidden;
+    
+    
+}
+.photoheader{
+   display: flex;
+   background-color: aliceblue;
+   width: 100%;
+    height: 10%;
+}
+.photoheader .section1{
+    width: 80%;
+    justify-self: center;
+    padding: 5px;
+    
+}
+.photoheader .section2{
+    width: 20%;
+    text-align: center;
+    justify-self: center;
+    padding: 5px;
+   
+}
+.photo img{
+    background-image: url(https://www.wondercide.com/cdn/shop/articles/Upside_down_gray_cat.png?v=1685551065);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
